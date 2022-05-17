@@ -13,6 +13,9 @@ The portfolio for __Visual Analytics S22__ consists of 4 projects (3 class assig
 
 ## 4. Usage
 
+
+Make sure the path is: "VIS_assignment4/in/human-action-detection-artificial-intelligence/emirhan_human_dataset/datasets/human_data"
+
 Before running the script, run the following in the Terminal:
 ```
 pip install --upgrade pip
