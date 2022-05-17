@@ -16,7 +16,7 @@ The portfolio for __Visual Analytics S22__ consists of 4 projects (3 class assig
 Before running the script, run the following in the Terminal:
 ```
 pip install --upgrade pip
-pip install opencv-python scikit-learn tensorflow tensorboard tensorflow-hub pydot scikeras[tensorflow-cpu]
+pip install opencv-python scikit-learn tensorflow tensorboard tensorflow-hub pydot scikeras[tensorflow-cpu] tensorflow_datasets
 sudo apt-get update
 sudo apt-get -y install graphviz
 ```
