@@ -170,7 +170,8 @@ def classification(epochs, report_name, plot_name):
                             steps_per_epoch=num_of_train_samples // batch_size,
                             epochs=epochs,
                             validation_data=validation_generator,
-                            validation_steps=num_of_test_samples // batch_size)
+                            validation_steps=num_of_test_samples // batch_size,
+                            callbacks=my_callbacks)
     
     validation_generator.reset()
     # evaluate model
