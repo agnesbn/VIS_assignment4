@@ -59,5 +59,11 @@ python src/human_action_classification.py (--epochs <EPOCHS> --plot_name <PLOT N
 * `<PLOT NAME>` represents the name that the history plot is saved under (it will always be saved as a PNG). The default value is `history_plot`.
 * `<REPORT NAME>` represents the name that the classification report is saved under (it will always be saved as a TXT). The default value is `classification_report`.
 
-## 4. Discussion of results
+The results are saved in the [`out`](https://github.com/agnesbn/VIS_assignment4/tree/main/out) folder.
 
+## 4. Discussion of results
+After training the model for 50 epochs, an **accuracy of 47%** was reached. Though the training loss and accuracy curves do seem to have flattened a bit, they may still improve with longer training time. The validation loss and accuracy curves, however, seem to have flattened quite a lot more around the 10-15 epochs mark.
+
+![](https://github.com/agnesbn/VIS_assignment4/blob/main/out/history_plot.png)
+
+The person who uploaded the data trained a number of CNNs on the data and only reached a **test accuracy of 43.17%** when training on VGG16 for 50 epochs. This indicates that getting accuracy scores much higher than mine is unlikely.
