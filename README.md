@@ -1,8 +1,6 @@
 # Assignment 4 – Human Action classification
 The portfolio for __Visual Analytics S22__ consists of 4 projects (3 class assignments and 1 self-assigned project). This is the __fourth and final assignment__ in the portfolio.
 
-**Github repository**: https://github.com/agnesbn/VIS_assignment4.
-
 
 ## 1. Contribution
 ..
