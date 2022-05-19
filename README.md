@@ -12,21 +12,21 @@ I also found [this simple example](https://gist.github.com/RyanAkilos/3808c17f79
 ## 2. Methods
 For this self-assigned project, I wanted to use the methods introduced to us during the Visual Analytics course to train a model to do classification of different human actions. The data, which was found on [Kaggle](https://www.kaggle.com/datasets/7ee7818707be9f1b0dfc4703c1fba3fdab24174b5acca2d3e4e2c3de82152ae6), provided images of 15 different human actions:
 
-* calling
-* clapping
-* cycling
-* dancing
-* drinking
-* eating
-* fighting
-* hugging
-* laughing
-* listening_to_music
-* running
-* sitting
-* sleeping
-* texting
-* using_laptop
+- calling
+- clapping
+- cycling
+- dancing
+- drinking
+- eating
+- fighting
+- hugging
+- laughing
+- listening_to_music
+- running
+- sitting
+- sleeping
+- texting
+- using_laptop
 
 The data was already split between training (15000 images) and testing (3000 images) data.
 
@@ -55,9 +55,10 @@ Make sure your current directory is the `VIS_assignment4` folder. Then run:
 python src/human_action_classification.py (--epochs <EPOCHS> --plot_name <PLOT NAME> --report_name <REPORT NAME>
 ```
 
-* `<EPOCHS>` represents the number of epochs that the model trains in. The default value is `50`.
-* `<PLOT NAME>` represents the name that the history plot is saved under (it will always be saved as a PNG). The default value is `history_plot`.
-* `<REPORT NAME>` represents the name that the classification report is saved under (it will always be saved as a TXT). The default value is `classification_report`.
+**Input:**
+- `<EPOCHS>` represents the number of epochs that the model trains in. The default value is `50`.
+- `<PLOT NAME>` represents the name that the history plot is saved under (it will always be saved as a PNG). The default value is `history_plot`.
+- `<REPORT NAME>` represents the name that the classification report is saved under (it will always be saved as a TXT). The default value is `classification_report`.
 
 The results are saved in the [`out`](https://github.com/agnesbn/VIS_assignment4/tree/main/out) folder.
 
